@@ -2,6 +2,7 @@
   "name": "alka",
   "version": "0.0.1",
   "private": true,
+  "deploy": "gh-pages -d build",
   "devDependencies": {
     "react-scripts": "0.1.0"
   },
