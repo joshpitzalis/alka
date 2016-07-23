@@ -2,8 +2,8 @@
   "name": "alka",
   "version": "0.0.1",
   "private": true,
-  "deploy": "gh-pages -d build",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "react-scripts": "0.1.0"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
